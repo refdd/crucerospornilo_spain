@@ -10,10 +10,10 @@ function NavLinks({}) {
             <Link href="/">Home</Link>
           </li>
           <li className="text-lg uppercase text-bsDark transition  hover:text-[#029e9d] ">
-            <Link href={`/Egypt/egypt-tour-packages`}>Traval Packages</Link>
+            <Link href={`/Egypt/egypt-travel-packages`}>Traval Packages</Link>
           </li>
           <li className=" text-lg uppercase  text-bsDark transition  hover:text-[#029e9d] ">
-            <Link href={`/Egypt/river-nile-cruises`}>Egypt Cruises</Link>
+            <Link href={`/Egypt/nile-cruises`}>Egypt Cruises</Link>
           </li>
           <li className=" text-lg uppercase text-bsDark transition  hover:text-[#029e9d] ">
             <Link href={`/egypt-travel-blog`}>Blog</Link>

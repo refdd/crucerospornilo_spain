@@ -91,7 +91,7 @@ function FormCustomizeTour() {
   const onSubmit = (data) => {
     axios
       .post(
-        `https://api.nilecruisez.com/api/inquiries`,
+        `https://api.egyptfortravel.com/api/inquiries`,
         {
           ...data,
           name,

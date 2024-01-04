@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import axios from "axios";
 import { format } from "date-fns";
 import { useRouter } from "next/navigation";
+import CircularProgress from "@mui/material/CircularProgress";
 
 const TextArea = dynamic(() => import("./TextArea"));
 const CounterTraveller = dynamic(() => import("./CounterTraveller"));
@@ -14,6 +15,7 @@ const NationalitySelect = dynamic(() => import("./NationalitySelect"));
 const ArrivalDate = dynamic(() => import("./ArrivalDate"));
 const DepartureDate = dynamic(() => import("./DepartureDate"));
 function Form() {
+  const [isloading, setIsloading] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [EndDate, setEndDate] = useState(null);
@@ -89,9 +91,10 @@ function Form() {
     ? format(new Date(EndDate), "dd/MM/yyyy")
     : EndDate;
   const onSubmit = (data) => {
+    setIsloading(true);
     axios
       .post(
-        `https://api.nilecruisez.com/api/inquiries`,
+        `https://api.egyptfortravel.com/api/inquiries`,
         {
           ...data,
           name,
@@ -114,6 +117,7 @@ function Form() {
       .then((res) => {
         console.log(res);
         router.push("/Thank_you");
+        setIsloading(false);
       })
       .catch((error) => {
         console.log(error);
@@ -192,12 +196,22 @@ function Form() {
         </div>
         {/* button */}
         <div className="md:col-span-2">
-          <div className=" wrapper  flex justify-center items-center  bg-[#029e9d] px-4 py-3 rounded-2xl z-10  overflow-hidden  ">
+          <button
+            disabled={isloading}
+            className=" wrapper w-full flex justify-center items-center  bg-[#029e9d] px-4 py-3 rounded-2xl z-10  overflow-hidden  "
+          >
             <span className="absolute w-0 top-0 left-0 b-b-width bg-[#ffc107]  -z-10 h-full"></span>
-            <button className=" text-lg font-medium group-hover:text-white text-white ">
-              Inquire now
-            </button>
-          </div>
+            {isloading ? (
+              <div className="flex items-center">
+                <CircularProgress className="text-white text-4xl" />
+                <span className="text-white ml-3">Sending, Please Wait </span>
+              </div>
+            ) : (
+              <span className=" text-lg font-medium group-hover:text-white text-white ">
+                Inquire now
+              </span>
+            )}
+          </button>
         </div>
       </form>
     </FormProvider>

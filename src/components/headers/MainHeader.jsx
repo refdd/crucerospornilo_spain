@@ -14,7 +14,7 @@ async function MainHeader() {
         <div className="absolute top-0 left-0 w-full h-full bg-[#00000063]  "></div>
         <div className="absolute top-[80%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[99%] md:w-[70&]">
           <h1 className="text-white text-3xl md:text-4xl font-bold text-center">
-            Sail the Majestic Nile with Unforgettable Nile Cruises
+            Your gateway to Egypt for Travel
           </h1>
         </div>
       </div>

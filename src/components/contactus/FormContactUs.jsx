@@ -20,7 +20,7 @@ function FormContactUs() {
   const onSubmit = (data) => {
     axios
       .post(
-        `https://api.nilecruisez.com/api/contact_us`,
+        `https://api.egyptfortravel.com/api/contact_us`,
         {
           ...data,
           full_name: name,

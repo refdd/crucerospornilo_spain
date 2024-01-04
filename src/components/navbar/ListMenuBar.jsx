@@ -16,14 +16,14 @@ function ListMenuBar({ menuBar, dataManu, handleCloseMenu }) {
         </Link>
       </li>
       <li className="border-b-2  text-left w-full p-2 uppercase transition-all hover:bg-[#cccccc] ">
-        <Link href="/Egypt/egypt-tour-packages">
+        <Link href="/Egypt/egypt-travel-packages">
           <div onClick={handleCloseMenu} className=" w-full h-full">
             <span>Traval Packages</span>
           </div>
         </Link>
       </li>
       <li className="border-b-2 text-left w-full p-2 uppercase  transition-all hover:bg-[#cccccc] ">
-        <Link href="/Egypt/river-nile-cruises">
+        <Link href="/Egypt/nile-cruises">
           <div onClick={handleCloseMenu} className=" w-full h-full">
             <span>egypt Cruises</span>
           </div>

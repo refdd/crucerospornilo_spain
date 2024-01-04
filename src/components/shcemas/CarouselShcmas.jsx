@@ -9,27 +9,27 @@ function CarouselShcmas({ data }) {
       {
         "@type": "ListItem",
         position: 1,
-        url: "https://www.nilecruisez.com/Egypt/egypt-tour-packages/cairo-and-luxor-tour",
+        url: "https://www.egyptfortravel.com/Egypt/egypt-travel-packages/egypt-honeymoon-packages",
       },
       {
         "@type": "ListItem",
         position: 2,
-        url: "https://www.nilecruisez.com/Egypt/river-nile-cruises/ms-mayfair-nile-cruise",
+        url: "https://www.egyptfortravel.com/Egypt/egypt-travel-packages/cairo-and-luxor-tour",
       },
       {
         "@type": "ListItem",
         position: 3,
-        url: "https://www.nilecruisez.com/Egypt/christmas-offers/egypt-christmas-tour",
+        url: "https://www.egyptfortravel.com/Egypt/egypt-travel-packages/egypt-budget-tour",
       },
       {
         "@type": "ListItem",
         position: 4,
-        url: "https://www.nilecruisez.com/Egypt/honeymoon-travel-packages/egypt-honeymoon-trip",
+        url: "https://www.egyptfortravel.com/Egypt/egypt-travel-packages/best-egypt-tours",
       },
       {
         "@type": "ListItem",
         position: 5,
-        url: "https://www.nilecruisez.com/egypt-travel-blog/Temple-of-Luxor",
+        url: "https://www.egyptfortravel.com/Egypt/egypt-travel-packages/egypt-tour-with-round-trip-nile-cruise",
       },
     ],
   };

@@ -44,7 +44,7 @@ function PriceInformation({ notesData }) {
                 </div>
               </h3>
               {(isExpanded || activeIndex === index) && (
-                <div className="flex flex-col space-y-3 min-h-0 md:px-10 pb-7">
+                <div className="flex flex-col space-y-3 min-h-0  px-3 md:px-10 pb-7">
                   <div className="mt-2 text-base text-gray-500 capitalize">
                     <div
                       dangerouslySetInnerHTML={{

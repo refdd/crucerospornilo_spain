@@ -16,7 +16,7 @@ function TapsPackagesTour({ allcategories, slugType }) {
   useEffect(() => {
     setTours(allcategories[activeIndex]?.tours);
   }, []);
-  //   console.log(tours);
+  // console.log(tours);
   return (
     <div>
       <TapsSelected

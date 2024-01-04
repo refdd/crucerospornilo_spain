@@ -22,7 +22,7 @@ function SubscrbeMail() {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .post("https://api.nilecruisez.com/api/mails", data, {
+      .post("https://api.egyptfortravel.com/api/mails", data, {
         headers: {
           "Content-Type": "application/json",
         },
