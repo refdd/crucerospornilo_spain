@@ -47,7 +47,7 @@ function AccordionFAQ({ faqData }) {
             className=" group rounded-[10px] py-[14px] px-5 border h-fit border-[#f1f1f1] cursor-pointer md:hover:bg-bsPrimary transition-all"
           >
             <button className=" flex items-center justify-between pl-1 w-full">
-              <h3 className=" text-[#666] text-base font-medium group-hover:text-white transition-all ">
+              <h3 className=" text-[#666] text-base font-medium md:group-hover:text-white transition-all ">
                 {q.question}
               </h3>
               <div className="">
@@ -67,7 +67,7 @@ function AccordionFAQ({ faqData }) {
                 dangerouslySetInnerHTML={{
                   __html: q.answer ? q.answer : "",
                 }}
-                className="mt-4 text-base text-[#666] group-hover:text-white textEditor"
+                className="mt-4 text-base text-[#666] md:group-hover:text-white textEditor"
               ></div>
             )}
           </div>

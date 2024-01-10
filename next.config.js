@@ -4,11 +4,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "api.egyptfortravel.com",
+        hostname: "api.crucerospornilo.com",
       },
       {
         protocol: "https",
-        hostname: "www.egyptfortravel.com",
+        hostname: "www.crucerospornilo.com",
       },
     ],
   },

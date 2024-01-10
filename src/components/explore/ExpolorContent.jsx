@@ -28,7 +28,9 @@ function ExpolorContent() {
           Luxor. End your tour with a relaxing time on Hurghada beaches in the
           Red Sea.
         </p>
-        <Link href={"/Egypt/egypt-travel-packages/egypt-vacation-package"}>
+        <Link
+          href={"/viajar-egipto/egypt-travel-packages/egypt-vacation-package"}
+        >
           <div className="  group flex justify-center items-center  md:justify-start ">
             <button
               style={{ background: "#17233e" }}

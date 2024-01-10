@@ -20,14 +20,14 @@ function Form() {
   const [email, setEmail] = useState("");
   const [EndDate, setEndDate] = useState(null);
   const [StartDate, setStartDate] = useState(null);
-  const [number, setnumber] = useState("+1");
+  const [number, setnumber] = useState("+34");
   const [aduits, setAduits] = useState(0);
   const [childs, setChilds] = useState(0);
   const [childAges, setChildAges] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState({
-    code: "US",
-    label: "United States",
-    phone: "1",
+    code: "ES",
+    label: "Spain",
+    phone: "34",
   });
   const methods = useForm();
   const router = useRouter();
@@ -94,7 +94,7 @@ function Form() {
     setIsloading(true);
     axios
       .post(
-        `https://api.egyptfortravel.com/api/inquiries`,
+        `https://api.crucerospornilo.com/api/inquiries`,
         {
           ...data,
           name,
@@ -116,7 +116,7 @@ function Form() {
       )
       .then((res) => {
         console.log(res);
-        router.push("/Thank_you");
+        router.push("/gracias");
         setIsloading(false);
       })
       .catch((error) => {

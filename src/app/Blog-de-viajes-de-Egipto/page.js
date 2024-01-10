@@ -8,9 +8,9 @@ const ListBlolgContainer = dynamic(() =>
 const FormInquery = dynamic(() => import("@/components/form/FormInquery"));
 export async function generateMetadata({ params: { slug }, searchParams }) {
   return {
-    title: "Egypt Travel Blog | Egypt Travel Advisory",
+    title: "Blog de viajes de Egipto | Guía de viaje de Egipto",
     description:
-      "The top Popular Egypt travel blog featuring travel tips, fashion, food and photography from around Egypt Read before starting adventures Read more!",
+      "guía completa para viajar a Egipto será tu mejor compañera para preparar tu viaje de forma rápida, sencilla y eficaz ¡Disfruta de tu viaje a Egipto!",
   };
 }
 async function ListBlog() {
@@ -19,8 +19,11 @@ async function ListBlog() {
   return (
     <div>
       <HeaderPages
-        typeList={"egypt travel blog "}
-        listSlug={{ title: "egypt travel blog", slug: "egypt-travel-blog" }}
+        typeList={"Blog de viajes de Egipto "}
+        listSlug={{
+          title: "Blog de viajes de Egipto",
+          slug: "Blog-de-viajes-de-Egipto",
+        }}
         singleSlug={""}
       />
       <div className="container mx-auto px-4 mt-28 md:px-10">

@@ -11,9 +11,9 @@ const ExploreSection = dynamic(() =>
 );
 export async function generateMetadata({ params: { slug }, searchParams }) {
   return {
-    title: "Contact us | Around Egypt",
+    title: "Contacta con nosotras| cruceros por nilo",
     description:
-      "Contact us now All you have to do is fill the below form and tell us what your dream",
+      "Contacta con nosotrasnow All you have to do is fill the below form and tell us what your dream",
   };
 }
 function ContactUs() {
@@ -21,7 +21,7 @@ function ContactUs() {
     <div>
       <HeaderPages
         typeList={"CONTACT US"}
-        listSlug={{ title: " CONTACT US", slug: "ContactUs" }}
+        listSlug={{ title: " CONTACT US", slug: "contacta-con-nosotras" }}
         singleSlug={""}
       />
       <div className="container mx-auto px-4 md:px-10">

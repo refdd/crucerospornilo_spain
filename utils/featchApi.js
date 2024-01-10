@@ -1,4 +1,4 @@
-export const baseUrl = "https://api.egyptfortravel.com/api";
+export const baseUrl = "https://api.crucerospornilo.com/api";
 export async function getData(url) {
   const res = await fetch(`${baseUrl}${url}`, { next: { revalidate: 10 } });
   if (!res.ok) {

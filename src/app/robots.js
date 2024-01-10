@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: "/admin",
     },
-    sitemap: "https://www.egyptfortravel.com/sitemap.xml",
+    sitemap: "https://www.crucerospornilo.com/sitemap.xml",
   };
 }

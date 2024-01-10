@@ -9,27 +9,27 @@ function CarouselShcmas({ data }) {
       {
         "@type": "ListItem",
         position: 1,
-        url: "https://www.egyptfortravel.com/Egypt/egypt-travel-packages/egypt-honeymoon-packages",
+        url: "https://www.crucerospornilo.com/viajar-egipto/Tours-a-Egipto/viaje-egipto-5-dias",
       },
       {
         "@type": "ListItem",
         position: 2,
-        url: "https://www.egyptfortravel.com/Egypt/egypt-travel-packages/cairo-and-luxor-tour",
+        url: "https://www.crucerospornilo.com/viajar-egipto/Tours-a-Egipto/Tours-a-Egipto/paquetes-baratos-egipto",
       },
       {
         "@type": "ListItem",
         position: 3,
-        url: "https://www.egyptfortravel.com/Egypt/egypt-travel-packages/egypt-budget-tour",
+        url: "https://www.crucerospornilo.com/viajar-egipto/Tours-a-Egipto/crucero-por-el-nilo-y-el-cairo",
       },
       {
         "@type": "ListItem",
         position: 4,
-        url: "https://www.egyptfortravel.com/Egypt/egypt-travel-packages/best-egypt-tours",
+        url: "https://www.crucerospornilo.com/viajar-egipto/Tours-a-Egipto/egypt-vacation-package",
       },
       {
         "@type": "ListItem",
         position: 5,
-        url: "https://www.egyptfortravel.com/Egypt/egypt-travel-packages/egypt-tour-with-round-trip-nile-cruise",
+        url: "https://www.crucerospornilo.com/viajar-egipto/crucero-egipto/crucero-radamis-ii",
       },
     ],
   };

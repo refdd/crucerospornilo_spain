@@ -14,9 +14,9 @@ const ExploreSection = dynamic(() =>
 );
 export async function generateMetadata({ params: { slug }, searchParams }) {
   return {
-    title: "About us | About Around Egypt Tours ",
+    title: "Sobre nosotras |",
     description:
-      "Around Egypt Tours is a young innovative travel company yet matured and experienced Founded in 2005 read more",
+      "Around Egypt Tours is a young innovative travel company yet matured and experienced Founded in 2005 Lee mas",
   };
 }
 function AboutUs() {
@@ -24,7 +24,7 @@ function AboutUs() {
     <div>
       <HeaderPages
         typeList={"ABOUT US"}
-        listSlug={{ title: " ABOUT US", slug: "AboutUs" }}
+        listSlug={{ title: " ABOUT US", slug: "sobre-nosotras" }}
         singleSlug={""}
       />
       <AboutUsSection />

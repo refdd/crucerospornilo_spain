@@ -23,7 +23,7 @@ export async function generateMetadata({ params, searchParams }) {
 async function DestinationPage() {
   const egyptPage = await getData("/destinations/1");
   const tours = await getData("/tours?limit=7");
-  // console.log(egyptPage?.data?.meta_title);
+  console.log(egyptPage?.data?.title);
   return (
     <div>
       {/* <HeaderPages
@@ -32,8 +32,8 @@ async function DestinationPage() {
         singleSlug={"efgfd"}
       /> */}
       <HeaderPages
-        typeList={"Egpyt Tours"}
-        listSlug={{ title: "Egpyt Tours", slug: "Egpyt" }}
+        typeList={egyptPage?.data?.title}
+        listSlug={{ title: egyptPage?.data?.title, slug: "Egpyt" }}
         singleSlug={""}
       />
       {/* <HeaderSingle titel={"Egpyt tours"} /> */}

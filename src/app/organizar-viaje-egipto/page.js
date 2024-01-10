@@ -11,7 +11,7 @@ export async function generateMetadata({ params: { slug }, searchParams }) {
     title:
       "Egypt Trip Planning | Plan a Vacation to Egypt | Egypt Trip Planner",
     description:
-      "Are you planning to visit Egypt We offer all that you need in Egypt, covering all cities and attractions, we will take care of all your needs Inquire now!",
+      " Está planeando Organizar Viaje a Egipto Ofrecemos todo lo que necesita en Egipto, cubriendo todas las ciudades y atracciones, nos ocuparemos de todas sus necesidades ¡Pregunte ahora!",
   };
 }
 function InquireNow() {
@@ -19,7 +19,7 @@ function InquireNow() {
     <div>
       <HeaderPages
         typeList={"Customize Your Tour"}
-        listSlug={{ title: " Inquire Now", slug: "InquireNow" }}
+        listSlug={{ title: " Inquire Now", slug: "organizar-viaje-egipto" }}
         singleSlug={""}
       />
       <CustomizeTourLayout />

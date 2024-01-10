@@ -15,14 +15,14 @@ function ShareIcons({ blogSlug, subSlug }) {
         <p className="text-xl font-bold text-bsDark">Share Icons</p>
         <span className="group cursor-pointer ">
           <TwitterShareButton
-            url={`https://www.egyptfortravel.com/egypt-travel-blog/${blogSlug}`}
+            url={`https://www.crucerospornilo.com/Blog-de-viajes-de-Egipto/${blogSlug}`}
           >
             <FaXTwitter className=" text-bsDark text-2xl group-hover:text-white" />
           </TwitterShareButton>
         </span>
         <span className="group cursor-pointer">
           <FacebookShareButton
-            url={`https://www.egyptfortravel.com/egypt-travel-blog/${blogSlug}`}
+            url={`https://www.crucerospornilo.com/Blog-de-viajes-de-Egipto/${blogSlug}`}
           >
             <FaFacebook className=" text-bsDark text-2xl group-hover:text-white" />
           </FacebookShareButton>
@@ -30,7 +30,7 @@ function ShareIcons({ blogSlug, subSlug }) {
 
         <span className="group cursor-pointer">
           <WhatsappShareButton
-            url={`https://www.egyptfortravel.com/egypt-travel-blog/${blogSlug}`}
+            url={`https://www.crucerospornilo.com/Blog-de-viajes-de-Egipto/${blogSlug}`}
             title={
               "next-share is a social share buttons for your next React apps."
             }

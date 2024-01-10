@@ -52,7 +52,7 @@ async function singelTour({ params: { slug, types } }) {
         title={title}
         image={image}
         description={description}
-        urlTour={`https://www.egyptfortravel.com/Egypt/${types}/${slug}`}
+        urlTour={`https://www.crucerospornilo.com/viajar-egipto/${types}/${slug}`}
       />
       <div className="container mx-auto px-4  md:px-10">
         <div className="grid grid-cols-1 md:grid-cols-6 gap-7 ">

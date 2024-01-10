@@ -69,28 +69,18 @@ function ContectFooter() {
           </li>
 
           <li className="text-xl text-white  transition-all ease-in-out   hover:text-[#029e9d]">
-            <Link href={"/AboutUs"}>
+            <Link href={"/sobre-nosotras"}>
               <span> About Us</span>
             </Link>
           </li>
           <li className="text-xl text-white  transition-all ease-in-out   hover:text-[#029e9d]">
-            <Link href={"/ContactUs"}>
+            <Link href={"/contacta-con-nosotras"}>
               <span> Contact Us</span>
             </Link>
           </li>
           <li className="text-xl text-white  transition-all ease-in-out   hover:text-[#029e9d]">
-            <Link href={"/terms-and-conditions"}>
-              <span> Terms & Conditions</span>
-            </Link>
-          </li>
-          <li className="text-xl text-white  transition-all ease-in-out   hover:text-[#029e9d]">
-            <Link href={"/responsible-travel"}>
-              <span> Responsible Travel</span>
-            </Link>
-          </li>
-          <li className="text-xl text-white  transition-all ease-in-out   hover:text-[#029e9d]">
-            <Link href={"/Egypt"}>
-              <span> Egypt</span>
+            <Link href={"/viajar-egipto"}>
+              <span> Viajar Egipto</span>
             </Link>
           </li>
         </ul>
