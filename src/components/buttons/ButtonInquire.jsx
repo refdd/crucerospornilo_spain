@@ -38,7 +38,7 @@ function BottonInquire() {
     <div
       className={
         showBottom
-          ? "md:hidden fixed bottom-0 container mx-auto z-[1000]  "
+          ? "md:hidden fixed bottom-0 container mx-auto z-50  "
           : " hidden"
       }
     >

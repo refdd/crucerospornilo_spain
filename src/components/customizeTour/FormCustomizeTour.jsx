@@ -91,7 +91,7 @@ function FormCustomizeTour() {
   const onSubmit = (data) => {
     axios
       .post(
-        `https://api.crucerospornilo.com/api/inquiries`,
+        `https://api.nilecruisez.com/api/inquiries`,
         {
           ...data,
           name,
@@ -113,7 +113,7 @@ function FormCustomizeTour() {
       )
       .then((res) => {
         console.log(res);
-        router.push("/gracias");
+        router.push("/Thank_you");
       })
       .catch((error) => {
         console.log(error);

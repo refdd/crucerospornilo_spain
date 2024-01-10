@@ -55,9 +55,9 @@ function CardOfferTour({
         </div>
         <div className="flex flex-col gap-3  px-4 pt-5 ">
           {/* title */}
-          <h3 className="  text-[#17233e] text-xl md:text-[22px] font-bold cursor-pointer md:hover:text-bsPrimary transition-all ">
+          <h2 className="  text-[#17233e] text-xl md:text-[22px] font-bold cursor-pointer md:hover:text-bsPrimary transition-all ">
             {title}
-          </h3>
+          </h2>
           {/* reatiog */}
           <div className="flex space-x-2 items-center  ">
             <BsFillStarFill className="text-bsWarning" />

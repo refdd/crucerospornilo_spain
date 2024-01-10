@@ -20,7 +20,7 @@ function FormContactUs() {
   const onSubmit = (data) => {
     axios
       .post(
-        `https://api.crucerospornilo.com/api/contact_us`,
+        `https://api.nilecruisez.com/api/contact_us`,
         {
           ...data,
           full_name: name,
@@ -36,7 +36,7 @@ function FormContactUs() {
       )
       .then((res) => {
         console.log(res);
-        router.push("/gracias");
+        router.push("/Thank_you");
       })
       .catch((error) => {
         console.log(error);

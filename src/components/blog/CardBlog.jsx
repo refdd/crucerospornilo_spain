@@ -16,7 +16,7 @@ function CardBlog({
   return (
     <div className="wrapper cursor-pointer">
       <div className="relative grid grid-cols-1 gap-3  shadow-lg bg-[#fff] justify-center items-center rounded-xl overflow-hidden  ">
-        <Link href={`/Blog-de-viajes-de-Egipto/${slug}`}>
+        <Link href={`/egypt-travel-blog/${slug}`}>
           <div className="relative w-full h-[267px]">
             <Image
               alt={metaTitle}
@@ -40,10 +40,10 @@ function CardBlog({
         </Link>
         <div className="flex flex-col gap-3  px-4 pt-5 ">
           {/* title */}
-          <Link href={`/Blog-de-viajes-de-Egipto/${slug}`}>
-            <h3 className="  text-[#17233e] text-xl md:text-[22px] font-bold cursor-pointer md:hover:text-bsPrimary transition-all ">
+          <Link href={`/egypt-travel-blog/${slug}`}>
+            <h2 className="  text-[#17233e] text-xl md:text-[22px] font-bold cursor-pointer md:hover:text-bsPrimary transition-all ">
               {title}
-            </h3>
+            </h2>
           </Link>
           {/* description */}
           <div className="">

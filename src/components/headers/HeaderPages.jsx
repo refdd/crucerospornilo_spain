@@ -8,7 +8,7 @@ function HeaderPages({ typeList, bgtour, listSlug, singleSlug }) {
   return (
     <div
       //   style={{ backgroundImage: `url(${bg.src})` }}
-      className="relative w-full h-[600px] md:h-[600px]"
+      className="relative w-full h-[600px] md:h-[700px]"
     >
       <Image
         alt={"image header pages"}
@@ -19,12 +19,12 @@ function HeaderPages({ typeList, bgtour, listSlug, singleSlug }) {
         priority
         placeholder="blur"
         // blurDataURL={modifiedImageUrl}
-        className="object-cover"
+        className=""
       />
       {/* layout */}
       <div className="absolute top-0 left-0 bottom-0 w-full h-full bg-[#0000002e]  "></div>
       {/* content  */}
-      <div className="absolute top-[70%] left-1/2 -translate-x-1/2 -translate-y-1/1 w-full flex justify-center flex-col ">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/1 w-full flex justify-center flex-col ">
         <h1 className="uppercase text-3xl md:text-5xl text-white font-bold  text-center ">
           {typeList}
         </h1>

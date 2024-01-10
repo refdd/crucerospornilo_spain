@@ -43,7 +43,7 @@ function ItineraryDays({ daysItinerary }) {
         >
           {isExpanded ? "Chiudi tutte le schede" : "Apri Tutte le tabe"}
         </button> */}
-        {daysItinerary?.map((q, index) => (
+        {daysItinerary.map((q, index) => (
           <div key={index} className="border border-[#ebe6de] mb-4 rounded-lg">
             <h3
               className={`flex items-center justify-between w-full  py-5 px-1 ${
@@ -65,13 +65,13 @@ function ItineraryDays({ daysItinerary }) {
               </div>
             </h3>
             {(isExpanded || activeIndex === index) && (
-              <div className="flex flex-col space-y-3 min-h-0  px-3 md:px-10 pb-7">
-                <div className="mt-2 text-base text-gray-500 capitalize">
+              <div className="flex flex-col space-y-3 min-h-0 px-10 pb-7">
+                <div className="mt-4 text-base text-gray-500 capitalize">
                   <div
                     dangerouslySetInnerHTML={{
                       __html: q.description ? q.description : "",
                     }}
-                    className="textEditorItenerary text-base font-medium !leading-[34px] !text-black "
+                    className="  textEditorItenerary text-lg font-medium !leading-[34px] !text-black "
                   ></div>
                 </div>
               </div>

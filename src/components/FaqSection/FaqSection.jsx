@@ -4,7 +4,7 @@ import { getData } from "../../../utils/featchApi";
 const HeaderSections = dynamic(() => import("../headers/HeaderSections"));
 const AccordionFAQ = dynamic(() => import("./AccordionFAQ"));
 async function FaqSection() {
-  const faqs = await getData("/faqs?limit=100");
+  const faqs = await getData("/faqs?limit=6");
 
   return (
     <div className=" container mx-auto mt-20 px-4 pb-20">

@@ -1,5 +1,5 @@
 import React from "react";
-function HeaderSingle({ titel, location, reviews, start_price }) {
+function HeaderSingle({ titel, location, reviews }) {
   return (
     <div className="pt-9 ">
       <div className="flex container gap-1 mx-auto flex-col justify-center items-center md:justify-start md:items-start md:gap-3 ">
@@ -15,9 +15,6 @@ function HeaderSingle({ titel, location, reviews, start_price }) {
           <p className="text-bsDark text-lg font- capitalize text-center  ">
             {reviews}
           </p>
-          <h3 className="capitalize block md:hidden text-2xl  text-center  md:text-right text-bsDark  font-medium ">
-            From $ {start_price}
-          </h3>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ export const metadata = {
 export default async function RootLayout({ children }) {
   const gtmId = await getData("/settings?name=body");
   return (
-    <html lang="es">
+    <html lang="en">
       <body className={`${Playfair.variable} font-play`}>
         <CustomProvider>
           <OrganizationShcams />

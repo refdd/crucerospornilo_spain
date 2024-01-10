@@ -5,7 +5,7 @@ const TapsPackagesTour = dynamic(() => import("./TapsPackagesTour"));
 const HeaderSections = dynamic(() => import("../headers/HeaderSections"));
 async function RowsPackage() {
   const types = await getData("/types");
-  // console.log(types);
+  //   console.log(types?.data[0]);
   return (
     <div className="container mx-auto px-4 pt-10">
       {types?.data?.map((type) => (
