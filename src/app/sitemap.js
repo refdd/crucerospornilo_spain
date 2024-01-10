@@ -1,5 +1,5 @@
 import { getData } from "../../utils/featchApi";
-const baseUrl = "https://www.nilecruisez.com/";
+const baseUrl = "https://www.crucerospornilo.com/";
 async function sitemap() {
   const pages = await getData("/pages");
   const types = await getData("/types");
@@ -19,13 +19,13 @@ async function sitemap() {
       priority: 1,
     },
     {
-      url: `${baseUrl}/Egypt`,
+      url: `${baseUrl}/viajar-egipto`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: `${baseUrl}/AboutUs`,
+      url: `${baseUrl}/sobre-nosotras`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
@@ -37,19 +37,19 @@ async function sitemap() {
       priority: 1,
     },
     {
-      url: `${baseUrl}/InquireNow`,
+      url: `${baseUrl}/organizar-viaje-egipto`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: `${baseUrl}/Thank_you`,
+      url: `${baseUrl}/gracias`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: `${baseUrl}/egypt-travel-blog`,
+      url: `${baseUrl}/Blog-de-viajes-de-Egipto`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
@@ -60,17 +60,17 @@ async function sitemap() {
       priority: 1,
     })),
     ...types?.data.map((slug) => ({
-      url: `${baseUrl}/Egypt/${slug?.slug}`,
+      url: `${baseUrl}/viajar-egipto/${slug?.slug}`,
       changeFrequency: "monthly",
       priority: 1,
     })),
     ...tours?.data.map((slug) => ({
-      url: `${baseUrl}/Egypt/${slug?.site_map_frequency}/${slug?.slug}`,
+      url: `${baseUrl}/viajar-egipto/${slug?.site_map_frequency}/${slug?.slug}`,
       changeFrequency: "monthly",
       priority: 1,
     })),
     ...posts?.data.map((slug) => ({
-      url: `${baseUrl}/egypt-travel-blog/${slug?.slug}`,
+      url: `${baseUrl}/Blog-de-viajes-de-Egipto/${slug?.slug}`,
       changeFrequency: "monthly",
       priority: 1,
     })),

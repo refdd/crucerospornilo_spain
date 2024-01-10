@@ -25,7 +25,7 @@ function CardListTour({
         }  gap-3   justify-center items-center `}
       >
         <div className="">
-          <Link href={`/Egypt/${slugType}/${slug}`}>
+          <Link href={`/viajar-egipto/${slugType}/${slug}`}>
             <div className="relative w-full h-[267px] md:h-[200px] md:rounded-lg  overflow-hidden">
               <Image
                 alt={metaTitle}
@@ -56,7 +56,7 @@ function CardListTour({
           >
             <div className="flex flex-col gap-3 ">
               {/* title */}
-              <Link href={`/Egypt/${slugType}/${slug}`}>
+              <Link href={`/viajar-egipto/${slugType}/${slug}`}>
                 <h2 className="  text-[#17233e] text-xl md:text-[22px] font-bold cursor-pointer md:hover:text-bsPrimary transition-all ">
                   {title}
                 </h2>
@@ -121,7 +121,7 @@ function CardListTour({
                 </p>
               </div>
 
-              <Link href={`/Egypt/${slugType}/${slug}`}>
+              <Link href={`/viajar-egipto/${slugType}/${slug}`}>
                 <div className="w-full py-3 px-10 bg-bsPrimary rounded-md flex justify-center items-center md:mt-3">
                   <button className="text-white font-medium text-lg">
                     See More

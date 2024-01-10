@@ -3,6 +3,7 @@ import IncludedSction from "./IncludedSction";
 import ExcludedSection from "./ExcludedSection";
 import Lightes from "./Lightes";
 import DescriptionOverView from "./DescriptionOverView";
+import CruiseFacilities from "./CruiseFacilities";
 function HighLights({
   description,
   run,
@@ -11,6 +12,7 @@ function HighLights({
   destinations,
   included,
   excluded,
+  facilities,
 }) {
   return (
     <div className="">
@@ -24,11 +26,15 @@ function HighLights({
           destinations={destinations}
         />
       </div>
+
       <div className=" pt-12">
         <div className=" flex flex-col gap-4   ">
           <IncludedSction included={included} />
           <ExcludedSection excluded={excluded} />
         </div>
+      </div>
+      <div className="pt-4">
+        <CruiseFacilities facilities={facilities} />
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ function TapsPackagesTour({ allcategories, slugType }) {
   useEffect(() => {
     setTours(allcategories[activeIndex]?.tours);
   }, []);
-  //   console.log(tours);
+  // console.log(tours);
   return (
     <div>
       <TapsSelected
@@ -25,7 +25,7 @@ function TapsPackagesTour({ allcategories, slugType }) {
         allcategories={allcategories}
       />
       <ToursSlier toursData={tours} slugType={slugType} />
-      <SeeMoreButton title={"See More"} slug={`Egypt/${slugType}`} />
+      <SeeMoreButton title={"See More"} slug={`viajar-egipto/${slugType}`} />
     </div>
   );
 }

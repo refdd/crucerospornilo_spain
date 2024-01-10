@@ -5,7 +5,7 @@ import React from "react";
 function CardRelatedTour({ imgSrc, title, destinations, slug, typeSlug }) {
   return (
     <div>
-      <Link href={`/Egypt/${typeSlug}/${slug}`}>
+      <Link href={`/viajar-egipto/${typeSlug}/${slug}`}>
         <div className=" grid grid-cols-3 gap-4 border-b pb-4 mt-3">
           <div className="">
             <div className="relative w-full h-[100px]">

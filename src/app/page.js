@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import React, { Suspense } from "react";
 import { getData } from "../../utils/featchApi";
 import CarouselShcmas from "@/components/shcemas/CarouselShcmas";
+import FaQShcmas from "@/components/shcemas/FaQShcmas";
 const ExploreSection = dynamic(() =>
   import("@/components/explore/ExploreSection")
 );
@@ -23,10 +24,12 @@ export async function generateMetadata({ params, searchParams }) {
     description: metaDesc?.data[0]?.value,
   };
 }
-function HomePage() {
+async function HomePage() {
+  const faqs = await getData("/faqs?limit=10");
   return (
     <div>
       <CarouselShcmas />
+      <FaQShcmas data={faqs?.data} />
       <MainHeader />
       <Suspense fallback={<>-----------</>}>
         {/* <SearchSection /> */}
@@ -35,7 +38,6 @@ function HomePage() {
         <FindPerfectTour />
         <Testimonials />
         {/* <RowBlog /> */}
-
         <ExploreSection />
         <OurPartners />
         <FaqSection />

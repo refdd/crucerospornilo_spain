@@ -8,7 +8,7 @@ function RelatedTour({ relatedTous }) {
         <span className="text-white  text-2xl font-bold">Retated Tour</span>
       </div>
       <div className=" grid grid-cols-1 gap-5 md:gap-10">
-        {relatedTous.map((item) => (
+        {relatedTous?.map((item) => (
           <CardTour
             key={item?.id}
             imgSrc={item?.image}

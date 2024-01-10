@@ -16,28 +16,28 @@ function ListMenuBar({ menuBar, dataManu, handleCloseMenu }) {
         </Link>
       </li>
       <li className="border-b-2  text-left w-full p-2 uppercase transition-all hover:bg-[#cccccc] ">
-        <Link href="/Egypt/egypt-tour-packages">
+        <Link href="/viajar-egipto/egypt-travel-packages">
           <div onClick={handleCloseMenu} className=" w-full h-full">
             <span>Traval Packages</span>
           </div>
         </Link>
       </li>
       <li className="border-b-2 text-left w-full p-2 uppercase  transition-all hover:bg-[#cccccc] ">
-        <Link href="/Egypt/river-nile-cruises">
+        <Link href="/viajar-egipto/nile-cruises">
           <div onClick={handleCloseMenu} className=" w-full h-full">
             <span>egypt Cruises</span>
           </div>
         </Link>
       </li>
       <li className="border-b-2  text-left w-full p-2 uppercase  transition-all hover:bg-[#cccccc] ">
-        <Link href="/egypt-travel-blog">
+        <Link href="/Blog-de-viajes-de-Egipto">
           <div onClick={handleCloseMenu} className=" w-full h-full">
             <span>Blog</span>
           </div>
         </Link>
       </li>
       <li className="bg-[#029e9d] flex justify-center items-center text-white text-lg  capitalize rounded-xl py-1 mt-2 cursor-pointer">
-        <Link href="/InquireNow">
+        <Link href="/organizar-viaje-egipto">
           <div onClick={handleCloseMenu} className=" w-full h-full">
             <span>Inquire Now</span>
           </div>

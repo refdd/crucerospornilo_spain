@@ -17,7 +17,10 @@ function CardTour({
   return (
     <div className="wrapper cursor-pointer">
       <div className="relative flex flex-col gap-3  shadow-lg bg-[#fff] justify-center items-center rounded-xl overflow-hidden  ">
-        <Link href={`/Egypt/${slugType}/${slug}`} className="w-full h-full">
+        <Link
+          href={`/viajar-egipto/${slugType}/${slug}`}
+          className="w-full h-full"
+        >
           <div className="relative w-full h-[267px] md:h-[240px]">
             <Image
               alt={metaTitle}
@@ -49,10 +52,10 @@ function CardTour({
         </Link>
         <div className="flex flex-col gap-3  px-4 pt-5 ">
           {/* title */}
-          <Link href={`/Egypt/${slugType}/${slug}`}>
-            <h2 className="  text-[#17233e] text-xl md:text-[22px] font-bold cursor-pointer md:hover:text-bsPrimary transition-all ">
+          <Link href={`/viajar-egipto/${slugType}/${slug}`}>
+            <h3 className="  text-[#17233e] text-xl md:text-[22px] font-bold cursor-pointer md:hover:text-bsPrimary transition-all ">
               {title}
-            </h2>
+            </h3>
           </Link>
 
           {/* reatiog */}

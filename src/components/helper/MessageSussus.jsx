@@ -12,7 +12,7 @@ export default function PositionedSnackbar({ messagestate, setMessagestate }) {
   };
 
   return (
-    <div className=" w-full md:w-[500px]">
+    <div className=" w-full ">
       <Snackbar
         anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
         open={open}

@@ -2,11 +2,11 @@ import React from "react";
 
 function HeaderSectionPages({ title, desc }) {
   return (
-    <div>
+    <div className="pt-4">
       <div className="flex flex-col justify-center items-center gap-3">
-        <h1 className="text-[#17233e]  text-3xl capitalize text-center font-bold">
+        <h2 className="text-[#17233e]  text-3xl capitalize text-center font-bold">
           {title}
-        </h1>
+        </h2>
         <p className="text-bsDark text-lg  capitalize text-center">{desc}</p>
       </div>
     </div>
